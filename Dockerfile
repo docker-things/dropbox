@@ -1,4 +1,3 @@
-# FROM ubuntu:18.04
 FROM alpine:3.8
 MAINTAINER Gabriel Ionescu <gabi.ionescu+docker@protonmail.com>
 
@@ -8,7 +7,7 @@ ARG DOCKER_GROUPID
 ARG DOCKER_USERNAME
 
 # ADD LAUNCHER
-COPY scripts/launcher.sh /usr/bin/dropbox-launcher
+COPY install/launcher.sh /usr/bin/dropbox-launcher
 
 # ENV
 ENV LANG=C.UTF-8
