@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Command used to launch docker
+DOCKER_CMD='sudo docker'
+
+# Where to store the backups
+BACKUP_PATH='/media/store/docker-backup'
+
 # The name of the docker image
 PROJECT_NAME="dropbox"
 
