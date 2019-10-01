@@ -21,6 +21,7 @@ BUILD_ARGS=(
 
 # RUN ARGS
 RUN_ARGS=(
+    -h dockerthingsdropbox
 
     # The path where your files will be
     -v $(pwd)/data/Dropbox:/dbox/Dropbox
